@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gc.cricket.AinActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/addplayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Player" />
+
+    <Button
+        android:id="@+id/adbater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add batting stat" />
+
+    <Button
+        android:id="@+id/addbowler"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:text="Add bowling stat" />
+
+    <EditText
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Enter jersy number to be deleted"
+        android:inputType="number" >
+    </EditText>
+
+    <Button
+        android:id="@+id/b_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/b_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDIT" />
+
+</LinearLayout>
